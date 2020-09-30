@@ -1,9 +1,3 @@
-## Instructions
-The code book should describe:
-1. the variables 
-2. the data
-3. any transformations or work that you performed to clean up the data
-
 ## Code Book
 This run_analysis.R script first prepares the environment with the required packages and raw dataset.
 It then tidies the downloaded data in accordance with the 5 requirements outlined in the Instructions:
