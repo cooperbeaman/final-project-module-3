@@ -12,14 +12,14 @@ It then tidies the downloaded data in accordance with the 5 requirements outline
 1. The dplyr package is loaded into the library
 2. The dataset zip file is downloaded and then its contents unzipped to the folder "UCI HAR Dataset"
 3. Each .txt file in the dataset is assigned to a corresponding variable:
-* features<-features.txt: 561 rows * 2 columns
-* activities<-activity_labels.txt: 
-* subject_test<-subject_test.txt:
-* x_test<-X_test.txt:
-* y_test<-y_test.txt:
-* subject_train<-subject_train.txt:
-* x_train<-X_train.txt:
-* y_train<-y_train.txt:
+* features<-features.txt: 561 rows x 2 columns: The features within this file come from accelerometer (tAcc-XYZ) and gyroscope 3-axial (tGyro-XYZ) raw signals 
+* activities<-activity_labels.txt: 6 rows x 2 columns: Contains the activities performed when measurements were taken and their codes (i.e. labels)
+* subject_test<-test/subject_test.txt: 2947 rows x 1 column: Contains test data from 9/30 volunteer test subjects
+* x_test<-test/X_test.txt: 2947 rows x 561 columns: Contains recorded features test data
+* y_test<-test/y_test.txt: 2947 rows x 1 column: Contains activity code label's test data
+* subject_train<-train/subject_train.txt: 7352 rows x 1 column: Contains training data from 21/30 volunteer subjects
+* x_train<-train/X_train.txt: 7352 rows x 561 columns: Contains recorded features training data
+* y_train<-train/y_train.txt: 7352 rows x 1 column: Contains activity code label's training data
 
 
 ## 1. Merges the training and the test sets to create one data set
