@@ -12,16 +12,14 @@ It then tidies the downloaded data in accordance with the 5 requirements outline
 1. The dplyr package is loaded into the library
 2. The dataset zip file is downloaded and then its contents unzipped to the folder "UCI HAR Dataset"
 3. Each .txt file in the dataset is assigned to a corresponding variable:
-* features<-features.txt
-kk
-
-* activities<-activity_labels.txt
-* subject_test<-subject_test.txt
-* x_test<-X_test.txt
-* y_test<-y_test.txt
-* subject_train<-subject_train.txt
-* x_train<-X_train.txt
-* y_train<-y_train.txt
+* features<-features.txt: 561 rows * 2 columns
+* activities<-activity_labels.txt: 
+* subject_test<-subject_test.txt:
+* x_test<-X_test.txt:
+* y_test<-y_test.txt:
+* subject_train<-subject_train.txt:
+* x_train<-X_train.txt:
+* y_train<-y_train.txt:
 
 
 ## 1. Merges the training and the test sets to create one data set
